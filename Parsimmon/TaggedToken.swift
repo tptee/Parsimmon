@@ -32,7 +32,7 @@ public struct TaggedToken: Equatable {
     }
 }
 
-extension TaggedToken: CustomStringConvertible {
+extension TaggedToken: Printable {
     public var description: String {
         return "('\(token)' \(tag))"
     }
